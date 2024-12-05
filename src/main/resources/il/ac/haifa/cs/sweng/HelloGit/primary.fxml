@@ -8,10 +8,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.ac.haifa.cs.sweng.HelloGit.PrimaryController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="176.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.ac.haifa.cs.sweng.HelloGit.PrimaryController">
    <top>
-      <MenuBar BorderPane.alignment="CENTER">
+      <MenuBar prefHeight="48.0" prefWidth="546.0" BorderPane.alignment="CENTER">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
@@ -35,6 +34,8 @@
                </font>
             </Label>
             <Label alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="17.0" prefWidth="111.0" text="Just add your stuff in the about dialog :)" VBox.vgrow="ALWAYS" />
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="565.0" text="Marian Dahmoush 324846492" />
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="563.0" text="Kanar Arrabi 214637969" />
          </children>
       </VBox>
    </center>
